@@ -1,16 +1,15 @@
 {
-	"name": "netliva/reusable-template",
+	"name": "netliva/tckn",
 	"license": "MIT",
 	"type": "library",
-	"description": "Netliva Xxx Library",
+	"description": "TC Kimlik Numarası ve Nüfus Bilgilerinin Nüfus Müdürlüğü ile Doğrulanması",
 	"autoload": {
 		"psr-4": {
-			"Netliva\\XxxBundle\\": "src/"
+			"Netliva\\TcknBundle\\": "src/"
 		}
 	},
 	"require": {
 		"php": ">=5.3.3",
-		"symfony/framework-bundle": "~2.7|~3.0|~4.0"
 	},
 	"minimum-stability": "stable"
 }
